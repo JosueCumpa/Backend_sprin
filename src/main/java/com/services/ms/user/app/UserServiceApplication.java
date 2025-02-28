@@ -22,6 +22,7 @@ public class UserServiceApplication implements CommandLineRunner {
 	private  final UserRepository repository;
 	private final TaskRepository taskRepository;
 
+
 	public static void main(String[] args) {
 		SpringApplication.run(UserServiceApplication.class, args);
 	}
